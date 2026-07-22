@@ -31,6 +31,13 @@ Prioritize organizations that have:
 - sustainability initiatives
 - CSR / ESG activities
 - support for innovation or professional development
+  Also consider:
+
+- companies supporting individual aviation journeys
+- pilot development initiatives
+- scholarship programs
+- mentorship programs
+- aviation community engagement
 
 
 ## Output Format
@@ -97,3 +104,23 @@ Also consider:
 - scholarship programs
 - mentorship programs
 - aviation community engagement
+
+## Lead Database Integration
+
+After research, prepare results in a format suitable for adding to:
+
+data/leads.csv
+
+Required fields:
+
+Name,Organization,Type,Country,Website,Contact_Person,Contact_Role,Email,Reason,Partnership_Angle,Priority,Status
+
+Status rules:
+
+New leads:
+RESEARCHED
+
+Do not mark leads as:
+CONTACTED
+REPLIED
+PARTNER
