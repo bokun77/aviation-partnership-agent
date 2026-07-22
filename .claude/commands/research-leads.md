@@ -69,3 +69,31 @@ https://bokun77.github.io/never-too-late-to-fly/
 
 Contact:
 aviationimpact.project@gmail.com
+
+## Lead Database Integration
+
+After research, prepare results in a format suitable for adding to:
+
+data/leads.csv
+
+Required fields:
+
+Name,Organization,Type,Country,Website,Contact_Person,Contact_Role,Email,Reason,Partnership_Angle,Priority,Status
+
+Status rules:
+
+New leads:
+RESEARCHED
+
+Do not mark leads as:
+CONTACTED
+REPLIED
+PARTNER
+
+Also consider:
+
+- companies supporting individual aviation journeys
+- pilot development initiatives
+- scholarship programs
+- mentorship programs
+- aviation community engagement
