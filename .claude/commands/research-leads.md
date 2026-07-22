@@ -107,20 +107,42 @@ Also consider:
 
 ## Lead Database Integration
 
+A## Lead Database Integration
+
 After research, prepare results in a format suitable for adding to:
 
 data/leads.csv
 
 Required fields:
 
-Name,Organization,Type,Country,Website,Contact_Person,Contact_Role,Email,Reason,Partnership_Angle,Priority,Status
+Organization,
+Type,
+Country,
+Website,
+Contact_Person,
+Contact_Role,
+Email,
+Reason,
+Partnership_Angle,
+Priority,
+Status
+
+Normalization rules:
+
+- Use UNKNOWN for missing information.
+- Do not use lowercase "unknown".
+- Do not invent contact names or emails.
+- Do not add unverified email addresses.
+- Keep organization names consistent.
+- Avoid duplicate organizations.
 
 Status rules:
 
-New leads:
+New researched leads:
 RESEARCHED
 
 Do not mark leads as:
 CONTACTED
 REPLIED
 PARTNER
+
