@@ -106,3 +106,8 @@ https://bokun77.github.io/never-too-late-to-fly/
 
 Contact:
 aviationimpact.project@gmail.com
+
+When a verified person exists but only a general company email is available:
+- personalize greeting using the verified name
+- send only to the verified public company channel
+- never guess personal email formats
